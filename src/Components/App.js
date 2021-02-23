@@ -1,5 +1,5 @@
 import React from 'react';
-import './Components/App.css';
+import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -14,18 +14,20 @@ import NotFound from './Components/NotFound';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
         <UserStorage>
           <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="login/*" element={<Login />} />
-            <ProtectedRoute path="conta/*" element={<User />} />
-            <Route path="foto/:id" element={<Photo />} />
-            <Route path="perfil/:user" element={<UserProfile />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <main className="AppBody">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="login/*" element={<Login />} />
+              <ProtectedRoute path="conta/*" element={<User />} />
+              <Route path="foto/:id" element={<Photo />} />
+              <Route path="perfil/:user" element={<UserProfile />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </main>
           <Footer />
         </UserStorage>
       </BrowserRouter>
