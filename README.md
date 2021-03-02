@@ -1,6 +1,7 @@
 # React Dogs
+Rede social Feita Com Html, Css, React
 
-Preview: https://dogss.netlify.app/
+# Preview: https://dogss.netlify.app/
 
 
 
