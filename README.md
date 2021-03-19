@@ -1,6 +1,6 @@
 
 #  🦴 React Dogs
-Projeto Feito Consumindo uma API E criando uma interface Baseada no instagram. 
+Projeto Feito Consumindo uma API e criando uma interface Baseada no instagram. 
 
 ## ✨ Demonstração
 ![1](https://user-images.githubusercontent.com/47065330/109691550-518ce180-7b66-11eb-9734-1294752e898f.png)
